@@ -7,7 +7,7 @@
 body {
     background-image:
     linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)),
-    url('starsincircle.jpg');
+    url('./images/starsincircle.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -42,6 +42,7 @@ button {
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     padding: 10px 20px;
     font-weight: 600;
     font-size: 16px;
