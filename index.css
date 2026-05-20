@@ -5,9 +5,7 @@
 }
 
 body {
-    background-image:
-    linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)),
-    url('./images/starsincircle.jpg');
+    background-image: linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), url('./images/starsincircle.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -27,15 +25,7 @@ main {
     align-items: start;
     padding-top: 40px;
     color: white;
-    text-shadow:
-        -1px -1px 0 #000,
-        1px -1px 0 #000,
-        -1px 1px 0 #000
-        1px 1px 0 #000,
-        -2px 0 0 #000,
-        2px 0 0 #000,
-        0 -2px 0 #000,
-        0 2px 0 #000;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, -2px 0 0 #000, 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000;
 }
 
 button {
