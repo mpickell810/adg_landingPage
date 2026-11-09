@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), url('./images/starsincircle.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    padding-top: 40px;
+    color: seagreen;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+  }
+  
+
+button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 16px;
+    user-select: none;
+    background-color: purple;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border: 2px solid;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+button:hover {
+    background-color: blueviolet;
+    transform: scale(1.05);
+}
